@@ -18,7 +18,9 @@ body {
 .section-1__title,
 .section-2__title,
 .section-2__gem h6,
-.section-2__gem p {
+.section-2__gem p,
+.section-3 h3,
+.section-3 h4 {
     margin: 0;
 }
 
@@ -121,4 +123,24 @@ body {
     font-size: 16px;
     margin: 16px 0 8px;
     color: rgb(224, 119, 151);
+}
+
+.section-3 {
+    padding: 150px 10%;
+    background-color: rgb(86, 216, 216);
+    text-align: center;
+}
+
+.section-3 h3 {
+    font-family: Righteous;
+    font-size: 72px;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.section-3 h4 {
+    font-size: 24px;
+    color: rgb(77, 73, 73);
+    font-weight: bolder;
 }
